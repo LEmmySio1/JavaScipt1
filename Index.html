@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+    <button type="button" onclick="myFunction()"> Click Me </button>
+    <button type="button2" onclick="myFunction2()"> Click Me Too</button>
+ 
+    <p id="demo"> This is a demonstration </p>
+    <p id="Test"> This is a Test </p>
+
+    <script>
+
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello Javascript";
+            document.getElementById("demo").style.backgroundColor = "Yellow";
+        }
+        function myFunction2() {
+            document.getElementById("Test").innerHTML = '<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Outdoors-man-portrait_%28cropped%29.jpg" alt=Photo>';
+            document.getElementById("Test").style.backgroundClip = "Blue";
+        }
+
+    </script>
+
+</body>
+</html>
